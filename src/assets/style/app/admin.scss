@@ -1,0 +1,115 @@
+.admin-login-form{
+    .card-container{
+        max-width: none !important;
+    }
+}
+
+.admin-list-content{
+    margin-top: 15px;
+    .admin-video-item{
+        background-color: #e0e0e0;
+        box-shadow: 0px 0px 4px -1px;
+        height: 70px;
+        padding: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        .left-side{
+            .status{
+                float: left;
+                width: 80px;
+                text-align: center;
+                .acitve{
+                    color: green;
+                }
+                .rejected{
+                    color: red;
+                }
+                .pending{
+                    color:indianred;
+                }
+            }
+            .f-image{
+                float: left;
+                img{
+                    width: 70px;
+                };
+            }
+            .game-name-platforms{
+                float: left;
+            }
+        }
+        .numbers{
+            float: right;
+            .icon-group{
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.admin-search-filter{
+    .filter-title{
+        text-align: center;
+    }
+    .filter-form{
+        width: 266px;
+        margin: 0 auto;
+        .filter-button{
+            text-align: center;
+        }
+    }
+}
+
+.admin-edit-game-form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .sub-page-title{
+        text-align: center;
+        span.approved{
+            color: #12a71e;
+        }
+        span.rejected{
+            color: #cd1620;
+        }
+        span.pending{
+            color:#fdc693;
+        }
+        span.hidden{
+            color: #999999;
+        }
+        span.Approved{
+            color: green;
+        }
+        span.Rejected{
+            color: red;
+        }
+        span.Pending{
+            color:indianred;
+        }
+        span.Hidden{
+            color: #999999;
+        }
+    }
+    .other-media-wrap{
+        ul.characters{
+            list-style: none;
+            .img-preview{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+    
+    .submit-button-wrap{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .p-field-radiobutton{
+        label{
+            cursor: pointer;
+        }
+    }
+}

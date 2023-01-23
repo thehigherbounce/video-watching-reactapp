@@ -1,0 +1,10 @@
+{
+    "data": [
+        {"name": "Action"},
+        {"name": "MOBA"},
+        {"name": "Aliens"},
+        {"name": "Tower Defense"},
+        {"name": "MMORPG"},
+        {"name": "Basketball"}
+    ]
+}

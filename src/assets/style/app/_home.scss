@@ -1,0 +1,25 @@
+/* Home Component*/
+#div{
+    margin-top: 5px;
+    padding-top: 10px;
+    scroll-snap-align: start;
+}
+.layout-content{
+    overflow: auto;
+    width: 100%;
+    .filter-pane{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .filters-fieldset{
+        margin-top: 30px;
+    }
+
+    .grid-select{
+        margin-top: 5px;
+    }
+    .scrollsnap-start{
+        scroll-snap-align: start; 
+    }
+}
